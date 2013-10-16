@@ -19,6 +19,7 @@ void tolva( int* hruga );
 void notandi( int* hruga );
 
 //Þetta fall birtir reglurnar í spilinu:
+//Matthildur was here
 void hjalp( );
 
 //Þetta fall spilar spilið:
