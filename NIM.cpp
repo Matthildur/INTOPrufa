@@ -240,12 +240,5 @@ int samtals( int* hruga )
 
 void lol()
 {
-	int n;
-	cout << "How many lols? ";
-	cin >> n;
-
-	for (int i = 0; n > 0; i++)
-	{
-		cout << "LOL" << endl;
-	}
+	cout << "LOL" << endl << endl;
 }
