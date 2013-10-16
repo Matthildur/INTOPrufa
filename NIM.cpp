@@ -1,10 +1,14 @@
 //NIM dabs október 1997
+//Lol breyting
+//Simmi var her
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 using namespace std;
+
+void lol ();
 
 //Þetta fall á að birta stöðu allra eldspýtnahrúgna (hrúgur í fleirtölu eignarfalli)
 void birta( int* hruga );
@@ -32,6 +36,8 @@ int hrugufjoldi;
 //Hér byrjar aðalforritið:
 int main( )
 {
+	lol();
+
 	int val;
 	do
 	{
@@ -230,4 +236,16 @@ int samtals( int* hruga )
 	}
 
 	return samtala;
+}
+
+void lol()
+{
+	int n;
+	cout << "How many lols? ";
+	cin >> n;
+
+	for (int i = 0; n > 0; i++)
+	{
+		cout << "LOL" << endl;
+	}
 }
